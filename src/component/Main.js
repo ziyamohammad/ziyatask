@@ -51,7 +51,7 @@ export default function Main() {
 
         return (
           <div className="main">
-            {/* Render "ALL YOUR CHATS" section only if not in mobile mode or no user is selected */}
+           
             {!isMobile || !myname ? (
               <div className="info">
                 <div className="details">
@@ -83,7 +83,7 @@ export default function Main() {
               </div>
             ) : null}
       
-            {/* Chat section */}
+          
             {myname && (
               <div className="chats">
                 <div className="chatnav">
