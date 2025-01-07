@@ -409,19 +409,196 @@ border-radius: 29px;
   
   
 }
+@media screen and (max-width:800px) {
+.login{
+  width:20%;
+  margin-left: 2rem;
+
+}
+.navbar{
+  padding-left: 1rem;
+}
+.navbar ul{
+  margin-left:0;
+}
+.mainchat{
+  width:100%;
+}
+.main{
+  width:90%;
+  margin-top: 2rem;
+  height:70%;
+  margin-bottom: 10vh;
+}
+.mainchat{
+  justify-content: space-around;
+}
+ 
+.chatimg{
+  width:94%;
+}
+.peoples{
+  width:94%;
+}
+.peoplename{
+  width:100%;
+}
+.para{
+  width:94%;
+}
+.line2{
+  width:94%;
+}
+}
+@media screen and (max-width: 660px) {
+  .logo{
+    font-size: 1.8rem;
+    width:12%;
+  }
+  .edit{
+    display: none !important;
+  }
+  .navbar ul{
+    justify-content: space-evenly;
+    width:40vw;
+  }
+  .navbar{
+    padding-left: 2rem;
+  }
+
+
+}
+@media screen and (max-width: 660px) {
+
+  .create{
+    font-size: 1rem;
+  }
+  .explore{
+    font-size: 1rem;
+  }
+  .chats{
+    width:94%;
+  }
+}
+
 @media screen and (max-width: 460px) {
 .navbar{
   width:100%;
-  padding-left:0;
+  padding-left:2rem;
+  padding-right:2rem;
 
 }
 .main{
-  width:403px;
+  width:86%;
 }
 .App{
   height:100%;
   width: 100%;
 }
+.create{
+  
+    display: none !important;
 }
+.edit{
+  display:none !important;
+}
+.login{
+  margin-left: 0;
+}
+.logo {
+  height: 36px;
+  width: 85px;
+  font-size: 2rem;
+}
+.line{
+  font-size:2rem;
+}
+.explore{
+  font-size:1.2rem;
+  width:115px;
+}
+.navbar ul{
+  margin-left:7px;
+}
+.mainchat{
+  width:100%;
+}
+.chats{
+  width:100%;
+  margin-bottom:46vh;
+}
+.chatnav{
+  width:100%;
+  padding-left:0.2rem;
+}
+.child{
+  width:63%;
+  margin-left:10%;
+}
+.candidate {
+  width:6rem;
+  font-family: "Open Sans", serif;
+  font-size: 12px;
+  
+}
+.info{
+  width:100%;
+  margin-bottom: 46vh;
+}
+.chatimg{
+  width:94%;
+}
+.para{
+  width:94%;
+  font-size: 1rem;
+}
+.peoples{
+  width:92%;
+}
+.peoplename{
+  width:100%;
+}
+.line2{
+  width:94%;
+}
+.add {
+  width:7%;
+  height: 26px;
+  font-size: 18px;
 
+}
+.new{
+  font-size:1rem;
+}
+}
+@media screen and (max-width: 350px) {
+  .logo{
+    font-size: 1.5rem;
+  }
+  .line{
+    margin-left:0.4rem;
+  }
+  .navbar ul li{
+    justify-content: center;
+  }
+  .explore {
+    font-size:1rem;
+    width: 97px;
+}
+.login {
+  width: 250px;
+  height: 38px;
+  background-color: rgba(243, 174, 159, 1);
+  font-size: 15px;
+}
+.para{
+  font-size: 0.7rem;
+}
+.name{
+  gap:0;
+}
+.icon p{
+  font-size: 0.8rem;
+}
+}
 
